@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NgsBwaRunner", "NgsBwaRunner\NgsBwaRunner.csproj", "{9DB6D118-C1A7-458B-B9E2-915A86BD29A5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DB6D118-C1A7-458B-B9E2-915A86BD29A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DB6D118-C1A7-458B-B9E2-915A86BD29A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DB6D118-C1A7-458B-B9E2-915A86BD29A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DB6D118-C1A7-458B-B9E2-915A86BD29A5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB30326D-4A4B-49BE-8D59-204E19279F95}
+	EndGlobalSection
+EndGlobal

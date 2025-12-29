@@ -1,0 +1,43 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <FileVersion>1.0.0.0</FileVersion>
+    <Title>NGS BWA Runner</Title>
+    <Description>下一代测序数据分析工具</Description>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PDFsharp" Version="6.2.3" />
+    <PackageReference Include="ScottPlot.WinForms" Version="5.1.57" />
+    <PackageReference Include="SSH.NET" Version="2025.1.0" />
+    <PackageReference Include="System.Drawing.Common" Version="10.0.1" />
+    <PackageReference Include="ZedGraph" Version="5.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 确保工具文件被复制到输出目录 -->
+    <None Update="tools\bwa">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="tools\samtools">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="tools\bcftools">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- 创建必要的文件夹 -->
+    <Folder Include="tools\" />
+  </ItemGroup>
+
+</Project>
