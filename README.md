@@ -12,7 +12,7 @@ This project utilized AI programming tools during development. The code has been
 
 Usage & Scope
 
-Use this FormApp (NgsBwaRunner) in a big project is **not recommanded** cause it is not designed for that situation, while it's not mean that the behaviour is banned. Actually it's open-sourced so you can use or re-creat it in ways you like, and we can talk about the details if you want (email: 2210240103@csu.edu.cn)
+Use this FormApp (NgsBwaRunner) in a big project is **not recommanded** cause it is not designed for that situation, while it's not mean that the behaviour is banned. Actually you can use or re-creat it in ways you like, and we can talk about the details if you want (email: 2210240103@csu.edu.cn)
 
 Contact & Collaboration
 
